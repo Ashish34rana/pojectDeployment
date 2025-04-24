@@ -1,0 +1,286 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;  
+}
+
+.navbar {
+  background-color: rgb(120, 187, 19);
+  height: auto;
+  display: flex;
+  flex-wrap: wrap; /*if items are not fit in one line it move to another line*/
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em; 
+}
+
+.navbar-logo {
+  width: 8em;
+  height: 3em;
+}
+
+.logo {
+  background-image: url("logoanimal.png");
+  background-size: cover;
+  background-position: center;
+  width: 6.3em;
+  height: 3.7em;
+  color: black;
+}
+
+.border {
+  border: 1.5% solid transparent;
+}
+
+.border:hover {
+  border: 2px solid orange;
+}
+
+.nav-menu {
+  font-size: 1rem;
+  color: white;
+  margin: 0.5em; ;
+}
+
+.nav-search {
+  width: 100%;  ;
+  max-width: 200px;/*element can grow to even if there's more space available*/
+  font-size: 1rem;
+  padding: 0.3em;  
+  border: none;
+}
+
+/* Second navigation */
+.nav-2 {
+  margin-top: 0.2%;
+  height: auto; /*the height is adjust depends on how much content is inside useful for different screen size and content lengths*/
+  background-color: green;
+  display: flex;
+  flex-direction: column;  /*used to arrange flex items vertically(top to buttom) instead of the default horizontal (left to right) */
+  align-items: center;
+  padding: 1em;  ;
+  text-align: center;
+}
+
+.text-nav {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.kids {
+  color: orange;
+}
+
+.motivation {
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+  margin-top: 0.5em;
+}
+
+.image-div{
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  background-color:#e2e7e6;
+
+}
+.background{
+  height: 35em;
+  width:30%;
+  padding:10px 15px 15px;
+  margin-top: 1.5%;
+  background-color:white;
+}
+.first-img{
+  height: 30em;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.back-top{
+ background-color:#5f7998;
+ height: 3em;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.5rem;
+}
+
+.foot-panel1{
+background-color: #222f3d;
+height: 30em;
+display: flex;
+justify-content: space-evenly;
+}
+ul{
+margin-top: 3%;
+}
+
+.panel-p{
+  font-size:1.5em ;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+ul a{
+  display: block;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: 1em;
+
+}
+
+.last-panel{
+  height: 5em;
+  margin-top: 0.1em;
+  background-color:cornflowerblue;
+  display: flex;
+  align-items: center;
+}
+
+.last-button{
+  margin-left:1em;
+  height: 2.6em;
+  width: 1.8em;
+  border: 4px solid orange;
+  background-color: cornflowerblue;
+}
+
+.last-p
+{
+  font-size: 1em;
+  margin-left: 7px;
+  
+}
+
+.last-copy
+{
+  font-size: 1em;
+  margin-left: 30%;
+  
+}
+
+
+/*creator name*/
+.creator{
+  text-align: center;
+  background-color: rgb(149, 226, 25);
+ 
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .nav-search {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.3em;
+  }
+
+  .nav-2 {
+    font-size: 1rem;
+    padding: 1em;
+  }
+
+  .motivation {
+    font-size: 1.1rem;
+  }
+
+  .image-div{
+    height:auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 0.5em;
+    background-color:#e2e7e6;
+  }
+  .background{
+  height: auto;
+  width:45%;
+ 
+}
+
+  .first-img{
+    width: 100%;
+     height: 10em;
+     margin-top: 0.5rem;
+     margin-bottom: 1rem;
+    
+   }
+   .back-top{
+    font-size: 1rem ;
+    height: 2em;
+   }
+
+   /*footer*/
+   .foot-panel1{
+    height: 10em;
+   }
+   
+.panel-p{
+  font-size:0.8em ;
+  font-weight: bold;
+  color: white;
+}
+
+ul a{
+  display: block;
+  color: whitesmoke;
+  font-size: 0.5rem;
+  margin-top: 1em;
+
+}
+
+/*Last design*/
+
+.last-panel{
+  height: 3em;
+}
+
+.last-button{
+
+  height: 2em;
+  width: 1.3em;
+  border: 3px solid orange;
+
+}
+
+.last-p
+{
+  font-size: 0.5em;
+  margin-left: 5px;
+  
+}
+
+.last-copy
+{
+  font-size: 0.5em;
+  margin-left: 5px;
+  
+}
+   
+}
+
+
+
+
+
