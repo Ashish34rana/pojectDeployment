@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;  
+}
+body{  
+ background-color: rgb(153, 236, 236); 
+}
+.div-tag{
+  background-color: rgba(226, 222, 222, 0.728);
+  width: 65%;
+  height: 40em;
+  margin-top:10em;
+  border-radius: 30px;
+}
+.header{
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.input-name{
+  margin-top:4em;
+  width: 45%;
+  height:2.2em;
+  font-size: 1.5rem;
+  border-radius: 5px ;
+  border: none;
+  background-color:rgb(221, 229, 240);
+}
+#span1{
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  margin-right: 0.7em;
+  font-weight: bold;
+}
+
+.input-pass{
+  margin-top:3em;
+  width: 45%;
+  height:2.2em;
+  font-size:1.5rem;
+  border-radius: 5px ;
+  border: none;
+  background-color:rgb(221, 229, 240);
+}
+#span2{
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  margin-right: 0.7em;
+
+  font-weight: bold;
+
+}
+
+.btn-1{
+  margin-top: 3.5em;
+  width: 10em;
+  height: 3em;
+  border: none;
+  background-color: rgb(30, 235, 167);
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+.btn-1:hover{
+  background-color: yellow;
+}
